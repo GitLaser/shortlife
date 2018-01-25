@@ -22,13 +22,17 @@ __datetime__ = "2018/1/4 13:45"
 #     return h
 
 
-def counter():
-    i=0
-    def h():
-        nonlocal i
-        i+=1
-        return i
-    return h
-a=counter()
-print(a(),a(),a())
+# def counter():
+#     i=0
+#     def h():
+#         nonlocal i
+#         i+=1
+#         return i
+#     return h
+# a=counter()
+# print(a(),a(),a())
 
+import requests
+
+res = requests.get('http://pricecomparison.browser.qq.com/get_comparison_info?url=https%3A%2F%2Fitem.jd.com%2F5089225.html')
+print(res.content)

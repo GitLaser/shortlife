@@ -31,10 +31,15 @@ class LazySingle:
         if not LazySingle.__ins:
             print('initiate instance')
         else:
-            print('instance exist')
+            print('instance exist',self.getIns())
 
-    @staticmethod
+    @classmethod
     def getIns(cls):
         if not cls.__ins:
-            cls.__ins = LazySingle
+            cls.__ins = LazySingle()
         return cls.__ins
+
+
+today = LazySingle()
+tomorrow = LazySingle()
+print(id(today),id(tomorrow))
