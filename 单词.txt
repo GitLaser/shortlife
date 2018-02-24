@@ -1,0 +1,22 @@
+pixel 像素
+crop 裁剪
+wrapper 封装
+invocation 调用
+deprecate 遗弃
+populate 填充
+one-off 一次性的
+refundable 可偿还的；可退回的
+redmine 项目管理
+adhere to 遵守
+backslash 反斜杠
+leftmost 最左侧的
+escapes 转义符
+pluralize 使复数化
+aggregate 统计
+profile 轮廓
+concrete 具体的
+truncate 截断
+arbitrary 任意的
+durability 耐用性；稳定性
+subset 子集
+essentially 实质上
